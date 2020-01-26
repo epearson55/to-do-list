@@ -1,6 +1,6 @@
 import React from "react"
 
-function TodoItem(props) {
+function todoitem(props) {
     return (
         <div className="todo-item">
             <input type="checkbox" checked={props.item.completed}/>
@@ -9,4 +9,4 @@ function TodoItem(props) {
     )
 }
 
-export default TodoItem
+export default todoitem
